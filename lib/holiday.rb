@@ -42,7 +42,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   holiday_hash[season.to_sym][holiday_name.to_sym] = []
   supply_array.each do | element |
     holiday_hash[season.to_sym][holiday_name.to_sym] << element
-  end  
+  end
   holiday_hash
 end
 
@@ -61,13 +61,13 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   hash.each do |season, holiday|
   		puts "#{season.capitalize}:"
-  		holiday.each do |holiday, supplies|		
+  		holiday.each do |holiday, supplies|
   			holiday_array = holiday.to_s.split("_")
   			cap_array = []
-  			holiday_array.map do |element| 
+  			holiday_array.map do |element|
   				cap_array << element.capitalize
-  			end 
-  			puts "  #{cap_array.join(' ')}: " + supplies.join(', ')	
+  			end
+  			puts "  #{cap_array.join(' ')}: " + supplies.join(', ')
   		end
   end
 end
