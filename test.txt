@@ -1,0 +1,21 @@
+
+holiday_supplies_hash
+  #second_supply_for_fourth_of_july
+    returns the string 'BBQ' without hardcoding it
+  #add_supply_to_winter_holidays
+    iterates through winter holidays adds a supply to each one
+  #add_supply_to_memorial_day
+    adds a supply to memorial day
+    adds a different supply to memorial day
+  #add_new_holiday_with_supplies
+    modifies the original hash by adding supplies of a new holiday to a season
+  #all_winter_holiday_supplies
+    has all the winter supplies
+  #all_supplies_in_holidays
+    should output the formatted list of holidays and their supplies
+  #all_holidays_with_bbq
+    should return :fourth_of_july and :memorial_day
+
+Finished in 0.0226 seconds (files took 0.51063 seconds to load)
+8 examples, 0 failures
+
