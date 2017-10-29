@@ -48,7 +48,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
             holiday << element
           end
         end
-      end      
+      end
     end
   end
   holiday_hash
